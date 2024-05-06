@@ -1,4 +1,4 @@
-För att starta någon av servern: 
+För att starta servern: 
 
 npm run node-1
 
