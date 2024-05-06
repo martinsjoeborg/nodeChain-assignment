@@ -1,0 +1,8 @@
+.block-content {
+    width: 1000px; /* Adjust the width as needed */
+ height: 400px; /* Adjust the height as needed */
+ overflow: auto;
+}
+.block-content li {
+    list-style: none;
+}

@@ -1,0 +1,15 @@
+.blockchain-ul li {
+    list-style: none;
+    text-align: left;
+}
+
+.blockchain-ul h4 {
+    list-style: none;
+    text-align: left;
+}
+
+.blockchain-list {
+    width: 1000px; /* Adjust the width as needed */
+ height: 400px; /* Adjust the height as needed */
+ overflow: auto;
+}
