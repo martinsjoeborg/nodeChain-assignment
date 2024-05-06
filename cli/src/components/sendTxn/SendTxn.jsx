@@ -8,8 +8,6 @@ const SendTxn = () => {
     const [recipient, setRecipient] = useState("");
     const [amount, setAmount] = useState("");
 
-
-
     function sendTxn(e) {
         e.preventDefault();
 

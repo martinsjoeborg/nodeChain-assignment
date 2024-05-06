@@ -7,13 +7,11 @@ const GetBlocks = () => {
     const [blockchain, setBlockchain] = useState([]);
 
     async function getBlockchain() {
-        console.log("get blockchain");
 
         await axios.get('http://localhost:3001/api/v1/blockchain')
             .then(response => {
 
                 setBlockchain(response.data.data.chain);
-                console.log(response.data.data.chain[1].data[0].fullName);
             })
             .catch(error => {
                 console.error(error);
@@ -47,16 +45,10 @@ const GetBlocks = () => {
           </ul>
         );
       });
-      
-    
-    function test() {
-        console.log(blockchain);
-    }
 
     return ( 
         <div className="container-getBlocks">
             <button onClick={getBlockchain}>Get full chain</button>
-            <button onClick={test}>test</button>
 
             <div className="blockchain-list">{blockchainMapping}</div>
 
