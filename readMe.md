@@ -1,27 +1,27 @@
-För att starta servern: 
+To start the server:
 
 npm run node-1
 
-För att starta frontenden, gå in i "cli" mappen och kör "npm run dev" i terminalen.
+To start the frontend, go into the "cli" folder and run "npm run dev" in the terminal.
 
-Glöm inte att köra "npm i" i både cli mappen och nodechain mappen.
+Don't forget to run "npm i" in both the cli folder and the nodechain folder.
 
-Endpoints för att se blockkedjan:
+Endpoint to view the blockchain:
 
 http://localhost:3001/api/v1/blockchain
 
-Endpoint för att lägga till data i pendingList (post):
+Endpoint to add data to pendingList (record):
 
 http://localhost:3001/api/v1/createTxn/broadcast,
 
-tex med formatet:
+for example with the format:
 
 {
-    "sender": "Martin Sjöborg",
-    "recipient": "Kalle Anka",
-    "amount": "1000"
+     "sender": "Martin Sjöborg",
+     "recipient": "Donald Duck",
+     "amount": "1000"
 }
 
-Endpoint för att mine'a ett nytt block (get):
+Endpoint to mine a new block (get):
 
 http://localhost:3001/api/v1/blockchain/mine-block
