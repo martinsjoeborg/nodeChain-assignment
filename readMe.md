@@ -22,6 +22,8 @@ for example with the format:
      "amount": "1000"
 }
 
-Endpoint to mine a new block (get):
+To transfer the block from pendinglist to the blockchain, go to:
 
-http://localhost:3001/api/v1/blockchain/mine-block
+http://localhost:3001/api/v1/blockchain/mine-block, (GET)
+
+Now try again to get the full blockchain.
