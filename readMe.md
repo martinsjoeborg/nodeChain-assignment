@@ -1,3 +1,6 @@
+This project is a simulation of a blockchain. You can list the chain, get a specific block in the chain and create a transaction to add to the chain. 
+Follow the steps below to try it out.
+
 To start the server:
 
 npm run node-1
